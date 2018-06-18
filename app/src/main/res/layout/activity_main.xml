@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecione uma Opção"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:id="@+id/btnPesoIdealHomem"
+        android:text="Peso ideal homem"
+        style="@style/BotaoInicial" />
+
+    <Button
+        android:id="@+id/btnPesoIdealMulher"
+        android:text="PESO IDEAL MULHER"
+        style="@style/BotaoInicial"/>
+
+    <Button
+        android:id="@+id/btnCalcularImc"
+        android:text="CALCULAR IMC"
+        style="@style/BotaoInicial" />
+
+    <Button
+        android:id="@+id/btnSobre"
+        android:text="SOBRE O APP"
+        style="@style/BotaoInicial"/>
+
+
+
+</android.support.v7.widget.LinearLayoutCompat>

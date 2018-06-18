@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        style="@style/AppTheme.LabelFormulario"
+        android:text="Nome: Ricardo Arthur de Souza Simião" />
+
+    <android.support.v7.widget.AppCompatTextView
+        style="@style/AppTheme.LabelFormulario"
+        android:text="Matricula: 21049326" />
+
+    <android.support.v7.widget.AppCompatTextView
+        style="@style/AppTheme.LabelFormulario"
+        android:text="Turma: Ciências da computacao" />
+
+    <android.support.v7.widget.AppCompatTextView
+        style="@style/AppTheme.LabelFormulario"
+        android:text="Fonte das fórmulas: mdsaude.com" />
+
+</android.support.v7.widget.LinearLayoutCompat>
